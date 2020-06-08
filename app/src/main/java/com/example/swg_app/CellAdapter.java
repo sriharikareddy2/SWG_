@@ -10,8 +10,22 @@ import android.widget.TextView;
 
 public class CellAdapter extends BaseAdapter {
 
-    private int[] image_id = {R.drawable.one,R.drawable.two,R.drawable.one};
-    private String[] dep_name = {"CS","Aero","Biotech"};
+    private int[] image_id = {
+            R.drawable.aero,R.drawable.agri,R.drawable.bio,R.drawable.chem,
+            R.drawable.chemical,R.drawable.civil,R.drawable.cs,R.drawable.ece,
+            R.drawable.ee,R.drawable.ageo,R.drawable.egeo,R.drawable.hss,
+            R.drawable.indu,R.drawable.instru,R.drawable.mech,R.drawable.manu,
+            R.drawable.mine,R.drawable.mnc,R.drawable.metal,R.drawable.ocean,
+            R.drawable.physics,R.drawable.quality
+    };
+    private String[] dep_name = {
+            "AE","AG","BT","CY",
+            "CH","CE","CS","ECE",
+            "EE","Applied GG","Exploration GG","HSS",
+            "IE","IM","ME","MF",
+            "MI","MNC","MT","OENA",
+            "PH","QE"
+    };
     Context ctx;
     CellAdapter(Context ctx){
         this.ctx = ctx;

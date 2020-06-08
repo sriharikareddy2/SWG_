@@ -15,8 +15,8 @@
         <ImageView
             android:id="@+id/depimg"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:src="@drawable/one"/>
+            android:layout_height="50dp"
+            android:src="@drawable/cs"/>
 
         <TextView
             android:id="@+id/depname"
@@ -26,7 +26,7 @@
             android:gravity="center"
             android:text="TextView"
             android:textColor="@color/common_google_signin_btn_text_dark_focused"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:text="Some Random Text" />
     </LinearLayout>
