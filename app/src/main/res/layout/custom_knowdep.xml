@@ -22,7 +22,12 @@
             android:id="@+id/depname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp"
+            android:textStyle="bold"
             tools:text="Some Random Text" />
     </LinearLayout>
 </RelativeLayout>
