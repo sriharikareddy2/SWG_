@@ -9,17 +9,22 @@
 
     <LinearLayout
         android:layout_width="150dp"
-        android:layout_margin="15dp"
-        android:padding="15dp"
-        android:background="#3399ff"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#3399ff"
+        android:orientation="vertical"
+        android:padding="15dp">
 
         <ImageView
             android:id="@+id/depimg"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:src="@drawable/cs"/>
+            android:src="@drawable/cs" />
 
         <TextView
             android:id="@+id/depname"
@@ -32,5 +37,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             tools:text="Some Random Text" />
+
     </LinearLayout>
+
 </RelativeLayout>
